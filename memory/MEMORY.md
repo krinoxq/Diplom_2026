@@ -13,3 +13,5 @@
 - [SSH-хосты и лимит MobaXterm](ssh-hosts-mobaxterm.md) — 85 хостов в ~/.ssh/config; Home Edition даёт только ~14 сессий, работаем через ssh + Tab-автодополнение
 - [Мат в ответах](swearing-style.md) — просил материться свободно, кроме кода и учебных документов
 - [Синк памяти в репозитории](memory-sync-repos.md) — claude-mem.sh pull перед «вспомни», push после записи; зеркало в DevOps-Learning и Diplom_2026
+- [План обучения DevOps](devops-strategy-plan.md) — СТРАТЕГИЯ.md + План_DevOps.xlsx (12 блоков, 286 ч) против ROADMAP.md; Ревизия не заполнена
+- [Учебный корпус DevOps](devops-source-materials.md) — лабы Куликова, LPIC Semaev-git, шпаргалки начальника, курс Astra Linux
