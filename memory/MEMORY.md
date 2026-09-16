@@ -12,4 +12,4 @@
 - [Черновик ВКР Полыги](polyga-vkr-draft.md) — пять глав, что написано и что осталось заполнить в Пример\Main
 - [SSH-хосты и лимит MobaXterm](ssh-hosts-mobaxterm.md) — 85 хостов в ~/.ssh/config; Home Edition даёт только ~14 сессий, работаем через ssh + Tab-автодополнение
 - [Мат в ответах](swearing-style.md) — просил материться свободно, кроме кода и учебных документов
-- [Синк памяти в репозитории](memory-sync-repos.md) — DevOps → DevOps-Learning, учёба → Diplom_2026, зеркалить всю память и пушить
+- [Синк памяти в репозитории](memory-sync-repos.md) — claude-mem.sh pull перед «вспомни», push после записи; зеркало в DevOps-Learning и Diplom_2026
