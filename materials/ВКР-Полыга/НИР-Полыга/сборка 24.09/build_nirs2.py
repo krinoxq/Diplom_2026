@@ -45,7 +45,7 @@ def set_text(p, text):
         if ch.tag != qn("w:pPr"): p.remove(ch)
     r = p.makeelement(qn("w:r"), {})
     if rpr is not None: r.append(rpr)
-    t = r.makeelement(qn("w:t"), {}); t.text = text
+    t = r.makeelement(qn("w:t"), {}); t.text = text.replace("—", "–").replace("―", "–")
     t.set("{http://www.w3.org/XML/1998/namespace}space", "preserve")
     r.append(t); p.append(r)
     return p
@@ -148,7 +148,7 @@ section(C.INTRO_TAIL)
 # ---- ГЛАВА 1 ----
 add(para("pb2")); add(para("h1", C.CH1)); add(para("blank_h"))
 section(C.CH1_INTRO)
-for title, content in zip(C.SUB, [C.S11, C.S12, C.S13, C.S14, C.S15, C.S16, C.S17]):
+for title, content in zip(C.SUB, [C.S11, C.S12, C.S13, C.S14, C.S15, C.S16]):
     add(para("blank")); add(para("h2", title)); add(para("blank_h"))
     section(content)
 
