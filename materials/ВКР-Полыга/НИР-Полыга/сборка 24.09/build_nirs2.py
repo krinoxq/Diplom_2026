@@ -115,6 +115,7 @@ def section(lst):
             cap = C.CAPS[x[1]]; n = cap.split()[1]
             t = old_table(x[1]) if x[1] in TBL else new_table(C.NEW_TABLES[x[1]])
             sp = SPLITS.get(n)
+            add(para("after_tbl", ""))            # пустая строка между текстом и подписью таблицы
             if sp == 0: add(para("pb2"))
             add(para("cap", cap))
             if sp:   # разбиение: строки с sp — во вторую часть с повтором шапки
